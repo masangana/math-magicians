@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+> Introduction to React
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & Css
+- React
+- Javascript
 
 ## Live Demo (if available)
 
