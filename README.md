@@ -82,9 +82,9 @@ Please find the link in the Live Demo section.
 
 👤 **Alex Masangana**
 
-  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-mavericks--db-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/masangana)
-  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-mavericks__db-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/alexmasangana)
-  - Gmail: [![Gmail Badge](https://img.shields.io/badge/-@balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:alexmasangana@gmail.com)
+  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Alexander-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/masangana)
+  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-Alexander-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/alexmasangana)
+  - Gmail: [![Gmail Badge](https://img.shields.io/badge/-@Alexander-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:alexmasangana@gmail.com)
 
 ## 🤝 Contributing
 
