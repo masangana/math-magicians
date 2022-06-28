@@ -1,0 +1,19 @@
+.calculator {
+    padding: 20px;
+    height: 700px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--calc--bg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.calculator__btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
