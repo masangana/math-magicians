@@ -1,7 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/465a863e-33ac-454b-abde-c842a9618266/deploy-status)](https://app.netlify.com/sites/app-math-magicians/deploys)
-
 # Math Magicians
 
 > "Math Magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
@@ -82,9 +80,9 @@ Please find the link in the Live Demo section.
 
 👤 **Alex Masangana**
 
-  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-mavericks--db-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/masangana)
-  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-mavericks__db-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/alexmasangana)
-  - Gmail: [![Gmail Badge](https://img.shields.io/badge/-@balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:alexmasangana@gmail.com)
+  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Alexander-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/masangana)
+  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-Alexander-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/alexmasangana)
+  - Gmail: [![Gmail Badge](https://img.shields.io/badge/-@Alexander-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:alexmasangana@gmail.com)
 
 ## 🤝 Contributing
 
