@@ -1,7 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/465a863e-33ac-454b-abde-c842a9618266/deploy-status)](https://app.netlify.com/sites/app-math-magicians/deploys)
-
 # Math Magicians
 
 > "Math Magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
