@@ -24,7 +24,7 @@ export const btns = [
     {
         display: '/',
         action: BTN_ACTIONS.ADD,
-        class: 'btn_op'
+        class: 'btn_op operation'
     },
     {
         display: '7',
@@ -43,7 +43,7 @@ export const btns = [
     },{
         display: 'x',
         action: BTN_ACTIONS.ADD,
-        class: 'btn_op'
+        class: 'btn_op operation'
     },
     {
         display: '4',
@@ -61,7 +61,7 @@ export const btns = [
     },{
         display: '-',
         action: BTN_ACTIONS.ADD,
-        class: 'btn_op'
+        class: 'btn_op operation'
     },
     {
         display: '1',
@@ -80,7 +80,7 @@ export const btns = [
     {
         display: '+',
         action: BTN_ACTIONS.ADD,
-        class: 'btn_op'
+        class: 'btn_op operation'
     },
     {
         display: 'Theme',
