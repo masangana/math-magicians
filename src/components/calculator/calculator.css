@@ -51,6 +51,8 @@
     align-items: flex-end;
     justify-content: flex-end;
     background-color: var(--txt-color);
+    border-radius: 10px;
+    padding-right: 10px;
 }
 
 .calculator__result__exp {
