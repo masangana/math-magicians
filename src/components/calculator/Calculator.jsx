@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import './calculator.css';
 import { btns, BTN_ACTIONS } from './btnConfig';
+import calculate from '../../logic/calculate';
 
 const Calculator = () => {
 

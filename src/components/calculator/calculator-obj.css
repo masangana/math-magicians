@@ -1,0 +1,149 @@
+
+:root {
+  --clr-darkgray: #858694;
+  --clr-lightgray: #e0e0e0;
+  --clr-orange: #f2913e;
+  --clr-white: #fff;
+  --clr-black: #181818;
+}
+
+.Calculator {
+  margin: 2rem auto 0 auto;
+  width: 40vw;
+  height: auto;
+  background-color: var(--clr-darkgray);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  border: 2px solid var(--clr-darkgray);
+}
+
+.Keypad {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "Display Display Display Display"
+    "AC Inverter Modulo Divide"
+    "Seven Eight Nine Multiply"
+    "Four Five Six Minus"
+    "One Two Three Plus"
+    "Zero Zero Dot Equal";
+  cursor: copy;
+}
+
+.Display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--clr-darkgray);
+  grid-area: Display;
+  border-style: ridge;
+  box-shadow: 1px 1px 0.05px 0 var(--clr-darkgray);
+  padding: 0.5rem;
+  color: var(--clr-white);
+  font-size: 2rem;
+  height: 3rem;
+}
+
+.Button {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--clr-darkgray);
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.Button:hover {
+  background-color: #ecf0f1;
+  filter: drop-shadow(1px);
+}
+
+.Button:active {
+  background-color: #ecf0f1;
+  filter: drop-shadow(1px);
+}
+
+.Gray {
+  background-color: var(--clr-lightgray);
+}
+
+.Orange {
+  background-color: var(--clr-orange);
+}
+
+.AC {
+  grid-area: AC;
+}
+
+.Inverter {
+  grid-area: Inverter;
+}
+
+.Modulo {
+  grid-area: Modulo;
+}
+
+.Divide {
+  grid-area: Divide;
+}
+
+.Seven {
+  grid-area: Seven;
+}
+
+.Eight {
+  grid-area: Eight;
+}
+
+.Nine {
+  grid-area: Nine;
+}
+
+.Multiply {
+  grid-area: Multiply;
+}
+
+.Four {
+  grid-area: Four;
+}
+
+.Five {
+  grid-area: Five;
+}
+
+.Six {
+  grid-area: Six;
+}
+
+.Minus {
+  grid-area: Minus;
+}
+
+.One {
+  grid-area: One;
+}
+
+.Two {
+  grid-area: Two;
+}
+
+.Three {
+  grid-area: Three;
+}
+
+.Plus {
+  grid-area: Plus;
+}
+
+.Zero {
+  grid-area: Zero;
+}
+
+.Dot {
+  grid-area: Dot;
+}
+
+.Equal {
+  grid-area: Equal;
+}
