@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-//import calculate from '../../logic/calculate.js';
+// import calculate from '../../logic/calculate.js';
 import './calculator-obj.css';
 
 const buttons = [
@@ -130,8 +130,8 @@ class Calculator extends Component {
     };
   }
 
-  handleClick = (e) => {
-    //this.setState((prevState) => calculate(prevState, e.target.innerText));
+  handleClick = () => {
+    // this.setState((prevState) => calculate(prevState, e.target.innerText));
   };
 
   render() {
