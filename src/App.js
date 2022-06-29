@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
 import './App.css';
-import React from 'react';
+// import React from 'react';
 
-/* eslint-disable */
-import Calculator from './components/calculator/Calculator';
+// eslint-disable-next-line no-unused-vars
+import Calculator from './components/calculator/Calculator.jsx';
 
 function App() {
   return (
