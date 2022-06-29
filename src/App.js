@@ -1,14 +1,13 @@
 import './App.css';
-// import React from 'react';
+import React from 'react';
 
-/* eslint-disable */
-import Calculator from './components/calculator/Calculator';
-import Interface from './components/calculator/calculator-class-based';
+
+import Calculator from './components/calculator/calculator-class-based.js';
 
 function App() {
   return (
     <div>
-        <Interface/>
+        <Calculator/>
     </div>
   );
 }
