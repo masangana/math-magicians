@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const buttons = [
   {
-    symbol: 'ACD',
+    symbol: 'AC',
     id: uuidv4(),
     name: 'AC',
     color: 'Gray',
