@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from '../logic/calculate.js';
 import style from './calculator-obj.css';
-import buttons from './btns';
+import buttons from './btns.js';
 
 const Calculator = () => {
   const [prevState, setState] = useState({
