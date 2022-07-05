@@ -6,6 +6,7 @@ import Calculator from './components/Calculator.js';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Quote from './components/Quote';
+import Footer from './Footer';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
               <Route path="/quote" element={<Quote/>} />
               <Route path="/calculator" element={<Calculator/>} />
           </Routes>
-       
+          <Footer />
       </Router>
       
     

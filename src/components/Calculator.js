@@ -39,7 +39,7 @@ const Calculator = () => {
 
   return (
     <>
-      <h1 className={style.calcTitle}>Let&apos;s do some math!</h1>
+      <h1 className="TitleCal">Let&apos;s do some math!</h1>
       <div className="Calculator">
         <span className="Display">{result}</span>
         <section className="Keypad">
