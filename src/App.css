@@ -71,8 +71,6 @@ a {
   height: 20vh;
   margin: 4rem auto;
   background-color: white;
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
-  border-radius: 1rem;
   padding: 0.5rem;
 }
 
@@ -94,8 +92,6 @@ a {
   margin: 2rem;
   padding: 1rem 0.25rem;
   background-color: white;
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
-  border-radius: 0.5rem;
 }
 
 .calculatorCont {
