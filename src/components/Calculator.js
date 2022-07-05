@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate.js';
-import style from './calculator-obj.css';
+import './calculator-obj.css';
 import buttons from './btns.js';
 
 const Calculator = () => {
@@ -39,22 +39,24 @@ const Calculator = () => {
 
   return (
     <>
-      <h1 className={style.calcTitle}>Let&apos;s do some math!</h1>
-      <div className="Calculator">
-        <span className="Display">{result}</span>
-        <section className="Keypad">
-          {buttons.map((button) => (
-            <button
-              type="button"
-              onClick={handleClick}
-              key={button.id}
-              className={`Button ${button.name} ${button.color}`}
-              value={button.symbol}
-            >
-              {button.symbol}
-            </button>
-          ))}
-        </section>
+      <div className="calculatorCont">
+        <h1 className="TitleCal">Let us do some math!</h1>
+        <div className="Calculator">
+          <span className="Display">{result}</span>
+          <section className="Keypad">
+            {buttons.map((button) => (
+              <button
+                type="button"
+                onClick={handleClick}
+                key={button.id}
+                className={`Button ${button.name} ${button.color}`}
+                value={button.symbol}
+              >
+                {button.symbol}
+              </button>
+            ))}
+          </section>
+        </div>
       </div>
     </>
   );
