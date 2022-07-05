@@ -39,22 +39,24 @@ const Calculator = () => {
 
   return (
     <>
-      <h1 className="TitleCal">Let&apos;s do some math!</h1>
-      <div className="Calculator">
-        <span className="Display">{result}</span>
-        <section className="Keypad">
-          {buttons.map((button) => (
-            <button
-              type="button"
-              onClick={handleClick}
-              key={button.id}
-              className={`Button ${button.name} ${button.color}`}
-              value={button.symbol}
-            >
-              {button.symbol}
-            </button>
-          ))}
-        </section>
+      <div className="calculatorCont">   
+        <h1 className="TitleCal">Let us do some math!</h1>
+        <div className="Calculator">
+          <span className="Display">{result}</span>
+          <section className="Keypad">
+            {buttons.map((button) => (
+              <button
+                type="button"
+                onClick={handleClick}
+                key={button.id}
+                className={`Button ${button.name} ${button.color}`}
+                value={button.symbol}
+              >
+                {button.symbol}
+              </button>
+            ))}
+          </section>
+        </div>
       </div>
     </>
   );

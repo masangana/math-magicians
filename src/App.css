@@ -22,9 +22,9 @@ nav {
 
 .nav-links {
   list-style: none;
-  width: 50%;
+  width: 30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: white;
   
@@ -85,4 +85,21 @@ a {
   margin-top: 1rem;
   margin-left: auto;
   font-style: italic;
+}
+
+/*calculator*/
+.TitleCal {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem 0.25rem;
+  background-color: white;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+}
+
+.calculatorCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
 }

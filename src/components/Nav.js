@@ -15,10 +15,12 @@ function Nav() {
                     Home
                     </NavLink>
                 </li>
+                <h2>|</h2>
                 <li><NavLink to="/calculator">
                     Calculator
                     </NavLink>
                 </li>
+                <h2>|</h2>
                 <li><NavLink to="/quote">
                     Quote
                     </NavLink>
