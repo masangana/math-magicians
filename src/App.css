@@ -57,3 +57,32 @@ a {
   font-size: 1rem;
   padding: 0.5rem;
 }
+
+/*quote*/
+
+.quoteSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  width: 80vw;
+  height: 20vh;
+  margin: 4rem auto;
+  background-color: white;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.quoteText {
+  font-size: 1rem;
+}
+
+.quoteAutor {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  font-style: italic;
+}

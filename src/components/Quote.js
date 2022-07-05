@@ -4,9 +4,14 @@ import '../App.css';
 
 function Quote() {
     return(
-        <div className="quote">
-            <h1>Quote page</h1> 
-        </div>
+        <section className="quoteSection">
+        <h1 className="quoteText">
+        “It’s hard enough to find an error in your code when
+         you’re looking for it; it’s even harder when you’ve
+          assumed your code is error-free.”
+        </h1>
+        <span className="quoteAutor"> – Steve McConnell</span>
+      </section>
     )
 }
 
