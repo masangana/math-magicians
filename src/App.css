@@ -3,7 +3,8 @@
 body {
   font-family: 'Inconsolata', monospace;
 }
-:root{
+
+:root {
   list-style: none;
 }
 
@@ -27,9 +28,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  
 }
-/*Home*/
+
+/* Home */
 .home {
   padding: 40px;
 }
@@ -40,8 +41,7 @@ a {
   color: white;
 }
 
-
-/*Foooter*/
+/* Foooter */
 .footer {
   display: flex;
   flex-direction: row;
@@ -58,7 +58,7 @@ a {
   padding: 0.5rem;
 }
 
-/*quote*/
+/* quote */
 
 .quoteSection {
   display: flex;
@@ -87,7 +87,7 @@ a {
   font-style: italic;
 }
 
-/*calculator*/
+/* calculator */
 .TitleCal {
   font-size: 1.5rem;
   text-align: center;
@@ -101,5 +101,5 @@ a {
 .calculatorCont {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
