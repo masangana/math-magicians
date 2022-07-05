@@ -1,11 +1,9 @@
-import React from 'react';
 import '../App.css';
-import { Link } from 'react-router-dom';
 
 function Home() {
-    return(
+  return (
         <div className="home">
-            <h1 className='HomeTitle'>Welcome to our page</h1> 
+            <h1 className='HomeTitle'>Welcome to our page</h1>
             <p className='HomeText'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -26,7 +24,7 @@ function Home() {
                 culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-    )
+  );
 }
 
 export default Home;
