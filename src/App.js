@@ -5,10 +5,10 @@ import {
   BrowserRouter as Router, Route, Routes,
 } from 'react-router-dom';
 import Calculator from './components/Calculator.js';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import Quote from './components/Quote';
-import Footer from './Footer';
+import Nav from './components/Nav.js';
+import Home from './components/Home.js';
+import Quote from './components/Quote.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
