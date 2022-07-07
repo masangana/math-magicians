@@ -16,7 +16,7 @@
 
 ## Live Demo 🔗
 
-Coming soon
+[Demo link](https://isnt-masangana-awesome.netlify.app/)
 
 ## Getting Started
 
